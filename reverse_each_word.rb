@@ -1,7 +1,7 @@
 require 'pry'
 def reverse_each_word(sentence1)
   array = []
-  array = sentence1.split
+  sentence1.split(" ")
   array.each do |sentence|
     array.reverse
     puts array
